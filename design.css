@@ -2,7 +2,8 @@
     font-family: 'Work Sans';
 }
 
-header{
+/* header part*/
+header {
     text-align: right;
     padding: 215px 230px 360px 840px;
     background-image: url(./images/banner/banner1.png);
@@ -33,4 +34,39 @@ header{
     border: none;
     background: #F15B22;
     border-radius: 5px;
+}
+
+/* section part */
+.section-2 {
+    display: flex;
+    gap: 85px;
+    padding: 130px 320px 130px 200px;
+}
+
+.failure {
+    padding-top: 160px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.tick-box img {
+    width: 24px;
+    height: 24px;
+}
+
+.tick-box {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
