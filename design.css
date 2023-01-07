@@ -36,11 +36,12 @@ header {
     border-radius: 5px;
 }
 
-/* section part */
-.section-2 {
+/* section part 1*/
+.section-1 {
     display: flex;
     gap: 85px;
     padding: 130px 320px 130px 200px;
+    justify-content: center;
 }
 
 .failure {
@@ -72,19 +73,17 @@ header {
     padding-bottom: 8px;
 }
 
-ul {
-    display: flex;
-    gap: 85px;
-    list-style: none;
+/* section part 2 */
+.plan {
+    text-align: center;
+    justify-content: center;
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 85px;
-}
-.plan{
-    padding: 0 230px;
-    text-align: center;
+    padding-top: 55px;
+    justify-content: center;
 }
 
 .plan-title {
@@ -98,4 +97,99 @@ ul {
     color: #737272;
     font-weight: 500;
     font-size: 25px;
+}
+
+/* section part 3 */
+.banner {
+    padding: 250px 230px;
+    background-image: url(./images/gradient3.png), url(./images/watch.png);
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.white-title {
+    color: #FFFFFF;
+    margin-left: -480px;
+    margin-bottom: 0;
+}
+
+.call-now {
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-left: -850px;
+}
+
+/* footer part */
+footer {
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    gap: 330px;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.footer-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.my-info {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.subscribe {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+input {
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    width: 325px;
+    padding: 22px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: #151414;
+    margin-bottom: 30px;
+}
+
+.subscribe-button {
+    color: #F15B22;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+footer img{
+    padding-top: 30px;
+    padding-right: 18px;
+    padding-left: 0;
 }
